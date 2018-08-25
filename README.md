@@ -2,6 +2,22 @@
 
 Quickly prototype your test HTML page with zero CSS class.
 
+## Instalation
+
+[Download the lastest realease][lastest release] or install it via NPM:
+
+```
+npm install semantic.css
+```
+
+Then you can include it in your CSS, depending on your pre/post processor:
+
+```scss
+@import "semantic.css";
+/* or */
+@import "./node_modules/semantic.css/dist/semantic.css";
+```
+
 ## [Online Documentation][doc]
 
 Available at the address: [dimitrinicolas.github.io/semantic.css/][doc]
@@ -156,5 +172,7 @@ Available at the address: [dimitrinicolas.github.io/semantic.css/][doc]
 This project is licensed under the [MIT license](LICENSE).
 
 [doc]: https://dimitrinicolas.github.io/semantic.css/
+[lastest release]: https://github.com/dimitrinicolas/semantic.css/releases/latest
 
+[postcss-import]: https://github.com/postcss/postcss-import
 [modern-normalize]: https://github.com/sindresorhus/modern-normalize
