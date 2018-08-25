@@ -1,0 +1,33 @@
+button,
+input[type="submit"],
+input[type="reset"] {
+  padding: 6px 17px;
+  border: none;
+  background-color: #4332e0;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.12s;
+  will-change: background-color;
+}
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+  background-color: #5949ee;
+}
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active {
+  background-color: #3b2ad3;
+}
+button[disabled],
+button[disabled]:hover,
+button[disabled]:focus,
+button[disabled]:active {
+  background: #efefef;
+  color: black;
+  cursor: default;
+}

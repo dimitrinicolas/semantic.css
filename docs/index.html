@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>prototype.css Documentation</title>
+		<meta property="og:title" content="prototype.css Documentation">
+		<meta name="description" content="Classless CSS framework for building quick semantic HTML pages prototypes">
+		<meta property="og:description" content="Classless CSS framework for building quick semantic HTML pages prototypes">
+		<link rel="stylesheet" href="dist/prototype.css">
+	</head>
+	<body>
+    <header>
+      <nav>
+        prototype.css
+        <aside>
+          <a href="https://github.com/dimitrinicolas/prototype.css">Github repository</a>
+        </aside>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Documentation</h1>
+        <p>
+          Classless CSS framework for building quick semantic HTML pages prototypes
+        </p>
+      </section>
+
+      <section>
+        <h2>Header</h2>
+        <pre>&lt;header&gt;
+  &lt;nav&gt;
+    prototype.css
+    &lt;aside&gt;
+      &lt;a href="https://github.com/dimitrinicolas/prototype.css"&gt;Github repository&lt;/a&gt;
+    &lt;/aside&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;</pre>
+      </section>
+
+      <section>
+        <h2>Main & Sections content</h2>
+        <pre>&lt;main&gt;
+  &lt;section&gt;
+    content
+  &lt;/section&gt;
+  &lt;section&gt;
+    content
+  &lt;/section&gt;
+&lt;/main&gt;</pre>
+      </section>
+
+      <section>
+        <h2>Headings</h2>
+        <pre>&lt;h1&gt;h1 title&lt;/h1&gt;
+&lt;h2&gt;h2 title&lt;/h2&gt;
+&lt;h3&gt;h3 title&lt;/h3&gt;
+&lt;h4&gt;h4 title&lt;/h4&gt;
+&lt;h5&gt;h5 title&lt;/h5&gt;
+&lt;h6&gt;h6 title&lt;/h6&gt;</pre>
+        <h1>h1 title</h1>
+        <h2>h2 title</h2>
+        <h3>h3 title</h3>
+        <h4>h4 title</h4>
+        <h5>h5 title</h5>
+        <h6>h6 title</h6>
+      </section>
+
+      <section>
+        <h2>Buttons</h2>
+        <pre>&lt;button&gt;Button&lt;/button&gt;
+&lt;button disabled&gt;Disabled button&lt;/button&gt;</pre>
+        <button>Button</button>
+        <button disabled>Disabled button</button>
+      </section>
+
+      <section>
+        <h2>Lists</h2>
+        <pre>&lt;ul&gt;
+  &lt;li&gt;An unordered list&lt;/li&gt;
+  &lt;li&gt;With &lt;a href="#"&gt;some links&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;And &lt;b&gt;bold text&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+  &lt;li&gt;An ordered list&lt;/li&gt;
+  &lt;li&gt;With &lt;a href="#"&gt;some links&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;And &lt;b&gt;bold text&lt;/b&gt;&lt;/li&gt;
+&lt;/ol&gt;</pre>
+        <ul>
+          <li>An unordered list</li>
+          <li>With <a href="#">some links</a></li>
+          <li>And <b>bold text</b></li>
+        </ul>
+        <ol>
+          <li>An ordered list</li>
+          <li>With <a href="#">some links</a></li>
+          <li>And <b>bold text</b></li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Blockquotes</h2>
+        <pre>&lt;blockquote&gt;
+  “The question of whether a computer can think is no more interesting than the question of whether a submarine can swim.” 
+  ― Edsger W. Dijkstra
+&lt;/blockquote&gt;</pre>
+        <blockquote>
+          “The question of whether a computer can think is no more interesting than the question of whether a submarine can swim.” 
+          ― Edsger W. Dijkstra
+        </blockquote>
+      </section>
+
+      <section>
+        <h2>Images</h2>
+        <pre>&lt;img src="assets/img.jpg" alt="Icelandic landscape"&gt;
+&lt;picture&gt;
+  &lt;source srcset="assets/img.webp" type="image/webp"&gt;
+  &lt;img src="assets/img.jpg" alt="Icelandic landscape"&gt;
+&lt;/picture&gt;</pre>
+        <img src="assets/img.jpg" alt="Icelandic landscape">
+        <picture>
+          <source srcset="assets/img.webp" type="image/webp">
+          <img src="assets/img.jpg" alt="Icelandic landscape">
+        </picture>
+      </section>
+
+      <section>
+        <h2>Forms</h2>
+        <h3>Inputs</h3>
+        <pre>&lt;form&gt;
+  &lt;label for="input-1"&gt;
+    Label input
+    &lt;input type="text" placeholder="Input placeholder" id="input-1"&gt;
+  &lt;/label&gt;
+  &lt;input type="text" placeholder="Input without label"&gt;
+&lt;/form&gt;</pre>
+        <form>
+          <label for="input-1">
+            Label input
+            <input type="text" placeholder="Input placeholder" id="input-1">
+          </label>
+          <input type="text" placeholder="Input without label">
+        </form>
+        <h3>Checkboxes & Radios</h3>
+        <pre>&lt;form&gt;
+  &lt;label for="checkbox"&gt;
+    &lt;input type="checkbox" id="checkbox"&gt;
+    Checkbox label
+  &lt;/label&gt;
+  &lt;label for="radio-1"&gt;
+    &lt;input type="radio" name="radio" id="radio-1"&gt;
+    Radio label 1
+  &lt;/label&gt;
+  &lt;label for="radio-2"&gt;
+    &lt;input type="radio" name="radio" id="radio-2"&gt;
+    Radio label 2
+  &lt;/label&gt;
+&lt;/form&gt;</pre>
+        <form>
+          <label for="checkbox-1">
+            <input type="checkbox" id="checkbox-1">
+            Checkbox label
+          </label>
+          <label for="radio-1">
+            <input type="radio" name="radio" id="radio-1">
+            Label radio 1
+          </label>
+          <label for="radio-2">
+            <input type="radio" name="radio" id="radio-2">
+            Label radio 2
+          </label>
+        </form>
+        <h3>Select</h3>
+        <pre>&lt;form&gt;
+  &lt;select&gt;
+    &lt;option value="option-1" selected&gt;Option 1&lt;/option&gt;
+    &lt;option value="option-2"&gt;Option 2&lt;/option&gt;
+    &lt;option value="option-3"&gt;Option 3&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/form&gt;</pre>
+        <form>
+          <select>
+            <option value="option-1" selected>Option 1</option>
+            <option value="option-2">Option 2</option>
+            <option value="option-3">Option 3</option>
+          </select>
+        </form>
+        <h3>Textarea & Submit</h3>
+        <pre>&lt;form&gt;
+  &lt;textarea cols="30" rows="10" placeholder="Textarea"&gt;&lt;/textarea&gt;
+  &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</pre>
+        <form>
+          <textarea cols="30" rows="10" placeholder="Textarea"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+
+      <section>
+        <h2>Footer</h2>
+        <pre>&lt;footer&gt;
+  &lt;section&gt;
+    footer
+  &lt;/section&gt;
+&lt;/footer&gt;</pre>
+      </section>
+    </main>
+    <footer>
+      <section>
+        footer
+      </section>
+    </footer>
+	</body>
+</html>

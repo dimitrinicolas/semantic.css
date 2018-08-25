@@ -1,0 +1,40 @@
+input,
+select,
+textarea {
+  display: block;
+  margin-y: 20px @900 15px;
+}
+label {
+  display: block;
+  margin-y: 20px @900 15px;
+}
+label > input {
+  margin-y: 5px;
+}
+label > input[type="radio"],
+label > input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="file"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  padding: 5px 10px;
+  border: 1px solid #dadada;
+}
+
+textarea {
+  padding: 10px;
+  border: 1px solid #dadada;
+}

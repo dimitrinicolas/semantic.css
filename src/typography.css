@@ -1,0 +1,13 @@
+p {
+  margin-y: 15px @900 10px;
+  line-height: 1.4;
+}
+
+ul,
+ol {
+  margin-y: 25px @900 20px;
+}
+ul li,
+ol li {
+  margin-y: 8px @900 5px;
+}

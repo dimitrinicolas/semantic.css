@@ -1,0 +1,20 @@
+blockquote {
+  position: relative;
+  margin-y: 25px @900 20px;
+  margin-left: 0;
+  padding-left: 30px;
+  padding-y: 3px;
+  font-size: 17px @900 16px;
+  line-height: 1.4;
+}
+
+blockquote::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 10px;
+  background: #efefef;
+}

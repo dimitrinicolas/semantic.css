@@ -1,0 +1,9 @@
+header {
+  padding-y: 25px;
+  background-color: #4332e0;
+}
+
+header,
+header a {
+  color: white;
+}

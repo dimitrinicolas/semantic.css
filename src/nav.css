@@ -1,0 +1,10 @@
+nav > * {
+  margin-right: 15px;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}

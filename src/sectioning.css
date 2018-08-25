@@ -1,0 +1,22 @@
+main,
+header > nav,
+footer > section {
+  max-width: 900px;
+  margin-x: auto;
+}
+@media (max-width: 932px) {
+  main,
+  header > nav,
+  footer > section {
+    max-width: 100%;
+    padding-x: 16px;
+  }
+}
+
+section {
+  margin-y: 50px @900 45px @600 40px;
+}
+header > section,
+footer > section {
+  margin-y: 0;
+}
