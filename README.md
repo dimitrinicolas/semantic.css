@@ -35,7 +35,7 @@ Available at the address: [dimitrinicolas.github.io/semantic.css/][doc]
 </header>
 ```
 
-### Main & Sections content
+### Main & Section content
 
 ```html
 <main>
@@ -48,7 +48,7 @@ Available at the address: [dimitrinicolas.github.io/semantic.css/][doc]
 </main>
 ```
 
-### Headings
+### Heading
 
 ```html
 <h1>h1 title</h1>
@@ -59,14 +59,14 @@ Available at the address: [dimitrinicolas.github.io/semantic.css/][doc]
 <h6>h6 title</h6>
 ```
 
-### Buttons
+### Button
 
 ```html
 <button>Button</button>
 <button disabled>Disabled button</button>
 ```
 
-### Lists
+### List
 
 ```html
 <ul>
@@ -81,7 +81,7 @@ Available at the address: [dimitrinicolas.github.io/semantic.css/][doc]
 </ol>
 ```
 
-### Blockquotes
+### Blockquote
 
 ```html
 <blockquote>
@@ -90,7 +90,7 @@ Available at the address: [dimitrinicolas.github.io/semantic.css/][doc]
 </blockquote>
 ```
 
-### Images
+### Image
 
 ```html
 <img src="assets/img.jpg" alt="Icelandic landscape">
@@ -100,8 +100,14 @@ Available at the address: [dimitrinicolas.github.io/semantic.css/][doc]
 </picture>
 ```
 
-### Forms
-#### Inputs
+### Dialog
+
+```html
+<dialog open>An open dialog</dialog>
+```
+
+### Form
+#### Input
 
 ```html
 <form>
@@ -113,7 +119,7 @@ Available at the address: [dimitrinicolas.github.io/semantic.css/][doc]
 </form>
 ```
 
-#### Checkboxes & Radios
+#### Checkbox & Radio
 
 ```html
 <form>
