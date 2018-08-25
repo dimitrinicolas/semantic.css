@@ -1,12 +1,12 @@
 {
-  "name": "prototype.css",
+  "name": "semantic.css",
   "version": "1.0.0",
   "description": "Classless CSS framework for building quick semantic HTML pages prototypes",
   "license": "MIT",
-  "main": "dist/prototype.css",
+  "main": "dist/semantic.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dimitrinicolas/prototype.css.git"
+    "url": "git+https://github.com/dimitrinicolas/semantic.css.git"
   },
   "author": {
     "name": "Dimitri NICOLAS",
@@ -21,11 +21,11 @@
     "prototyping"
   ],
   "bugs": {
-    "url": "https://github.com/dimitrinicolas/prototype.css/issues"
+    "url": "https://github.com/dimitrinicolas/semantic.css/issues"
   },
-  "homepage": "https://github.com/dimitrinicolas/prototype.css",
+  "homepage": "https://github.com/dimitrinicolas/semantic.css",
   "scripts": {
-    "postcss": "postcss src/index.css -o dist/prototype.css --config postcss.config.js",
+    "postcss": "postcss src/index.css -o dist/semantic.css --config postcss.config.js",
     "copy": "copyfiles dist/*.css docs",
     "build": "npm run postcss && npm run copy"
   },

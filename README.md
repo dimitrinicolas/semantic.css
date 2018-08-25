@@ -1,19 +1,19 @@
-# prototype.css
+# semantic.css
 
 Quickly prototype your test HTML page with zero CSS class.
 
 ## [Online Documentation][doc]
 
-Available at the address: [dimitrinicolas.github.io/prototype.css/][doc]
+Available at the address: [dimitrinicolas.github.io/semantic.css/][doc]
 
 ### Header
 
 ```html
 <header>
   <nav>
-    prototype.css
+    semantic.css
     <aside>
-      <a href="https://github.com/dimitrinicolas/prototype.css">Github repository</a>
+      <a href="https://github.com/dimitrinicolas/semantic.css">Github repository</a>
     </aside>
   </nav>
 </header>
@@ -155,6 +155,6 @@ Available at the address: [dimitrinicolas.github.io/prototype.css/][doc]
 
 This project is licensed under the [MIT license](LICENSE).
 
-[doc]: https://dimitrinicolas.github.io/prototype.css/
+[doc]: https://dimitrinicolas.github.io/semantic.css/
 
 [modern-normalize]: https://github.com/sindresorhus/modern-normalize
