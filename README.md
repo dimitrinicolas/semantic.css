@@ -4,7 +4,7 @@ Quickly prototype your test HTML page with zero CSS class.
 
 ## [Online Documentation][doc]
 
-Available at the address: [dimitrinicolas.github.io/prototype.css][doc]
+Available at the address: [dimitrinicolas.github.io/prototype.css/][doc]
 
 ### Header
 
@@ -155,6 +155,6 @@ Available at the address: [dimitrinicolas.github.io/prototype.css][doc]
 
 This project is licensed under the [MIT license](LICENSE).
 
-[doc]: https://dimitrinicolas.github.io/prototype.css
+[doc]: https://dimitrinicolas.github.io/prototype.css/
 
 [modern-normalize]: https://github.com/sindresorhus/modern-normalize
